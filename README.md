@@ -1,2 +1,9 @@
 # Student-Outcome-Analysis
-A Machine Learning Project with 36 predictors. With Recursive Feature Elimination, PCA and others to improve metrics
+A Final Project for my Machine Learning class at UCLA Extension.
+This dataset from the UCI Repository has 36 predictors - the most I've used for ML. Metrics started rather low in the high 60s to high 70s, even while using optimal hyperparameters for Random Forest, XGBoost and Dense Neural Network.
+
+My strategy was to use Recursive Feature Elimination, , PCA, Factor Analyzer to improve metrics.
+
+Received 100/100 for my efforts but I continued to refine my code after submission with another RFE, manual feature elimination (based on findings from histograms, boxplots, chi squared test and even VIF)
+
+Will continue to iterate as I think this dataset is quite challenging.
